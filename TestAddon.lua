@@ -6,8 +6,6 @@
 --SLASH_TESTADDON1 = "/testaddon";
 
 function TestAddonFrame_OnLoad()
-  SlashCmdList["TESTADDONTOGGLE"] = TestAddon_ToggleShow;
-  SLASH_TESTADDONTOGGLE1 = "/testaddonshow";
 end
 
 function TestAddon_ToggleShow()
@@ -25,3 +23,6 @@ end
 function TestAddon_Hide()
   FirstTestFrame:Hide();
 end
+
+SlashCmdList["TESTADDONTOGGLE"] = TestAddon_ToggleShow;
+SLASH_TESTADDONTOGGLE1 = "/testaddonshow";
