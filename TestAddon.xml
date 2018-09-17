@@ -9,6 +9,13 @@
     <Anchors>
       <Anchor point="TOPLEFT">
     </Anchors>
+    <Layers>
+      <Layer level="BACKGROUND">
+        <Texture>
+          <Color r="0.0" g="0.0" b="0.0" a="0.9"/>
+        </Texture>
+      </Layer>
+    </Layers>
     <Scripts>
       <OnLoad>
         TestAddonFrame_OnLoad();
