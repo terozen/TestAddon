@@ -1,6 +1,6 @@
 -- First Test Addon of tousaka
 
-DEFAULT_CHAT_FRAME:AddMessage("Hello World");
+-- DEFAULT_CHAT_FRAME:AddMessage("Hello World");
 
 SlashCmdList["TESTADDON"] = FirstTestFrame:Show();
 SLASH_TESTADDON1 = "/testaddon";
