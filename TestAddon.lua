@@ -11,8 +11,7 @@ function TestAddonFrame_OnLoad()
 end
 
 function TestAddon_ToggleShow()
-  local frame = getglobal("FirstTestFrame");
-  if (frame:IsVisible()) then
+  if (FirstTestFrame:IsVisible()) then
     TestAddon_Hide();
   else
     TestAddon_Show();
