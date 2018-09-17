@@ -12,7 +12,14 @@
     <Scripts>
       <OnLoad>
         TestAddonFrame_OnLoad();
+        this:RegisterForDrag("LeftButton");
       </OnLoad>
+      <OnDragStart>
+          this:StartMoving();
+      </OnDragStart>
+      <OnDragStop>
+          this:StopMovingOrSizing();
+      </OnDragStop>
     </Scripts>
   </Frame>
 
