@@ -7,7 +7,7 @@
       <AbsDimension x="140" y="100"/>
     </Size>
     <Anchors>
-      <Anchor point="TOPLEFT">
+      <Anchor point="TOPLEFT"/>
     </Anchors>
     <Layers>
       <Layer level="BACKGROUND">
