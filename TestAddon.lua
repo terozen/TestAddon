@@ -2,7 +2,7 @@
 
 -- DEFAULT_CHAT_FRAME:AddMessage("Hello World");
 
-SlashCmdList["TESTADDON"] = FirstTestFrame:Show();
+--SlashCmdList["TESTADDON"] = FirstTestFrame:Show();
 SLASH_TESTADDON1 = "/testaddon";
 
 function TestAddonFrame_OnLoad()
