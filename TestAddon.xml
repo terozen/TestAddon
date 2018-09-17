@@ -2,7 +2,7 @@
 ..\FrameXML\UI.xsd">
   <Script file="TestAddon.lua"/>
 
-  <Frame name="FirstTestFrame" hidden="false" toplevel="true" enableMouse="true" movable = "true" parent="UIParent">
+  <Frame name="FirstTestFrame" hidden="false" toplevel="true" enableMouse="true" movable="true" parent="UIParent">
     <Size>
       <AbsDimension x="140" y="100"/>
     </Size>
