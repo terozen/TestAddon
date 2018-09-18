@@ -3,5 +3,4 @@
 ## Notes: Trying to figure this stuff out
 ## DefaultState: disabled
 ## Version: 0.0.3
-TestAddon.lua
 TestAddon.xml

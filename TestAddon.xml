@@ -2,17 +2,31 @@
 ..\FrameXML\UI.xsd">
   <Script file="TestAddon.lua"/>
 
-  <Frame name="FirstTestFrame" hidden="false" toplevel="true" enableMouse="true" movable = "true" parent="UIParent">
+  <Frame name="FirstTestFrame" hidden="false" toplevel="true" enableMouse="true" movable="true" parent="UIParent">
     <Size>
       <AbsDimension x="140" y="100"/>
     </Size>
     <Anchors>
-      <Anchor point="TOPLEFT">
+      <Anchor point="TOPLEFT"/>
     </Anchors>
+    <Layers>
+      <Layer level="BACKGROUND">
+        <Texture>
+          <Color r="0.0" g="0.0" b="0.0" a="0.9"/>
+        </Texture>
+      </Layer>
+    </Layers>
     <Scripts>
       <OnLoad>
         TestAddonFrame_OnLoad();
+        this:RegisterForDrag("LeftButton");
       </OnLoad>
+      <OnDragStart>
+          this:StartMoving();
+      </OnDragStart>
+      <OnDragStop>
+          this:StopMovingOrSizing();
+      </OnDragStop>
     </Scripts>
   </Frame>
 
